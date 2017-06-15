@@ -1,2 +1,2 @@
 # ExpressJs-MySQL
-Crash App on express js + mysql + pug + sessions
+Crash App on express js + mysql + jade + sessions
