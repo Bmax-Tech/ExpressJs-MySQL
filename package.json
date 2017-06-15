@@ -1,0 +1,37 @@
+{
+  "name": "express-mysql",
+  "version": "1.0.0",
+  "description": "Crash Course with Express + Mysql + Session & Cookies",
+  "main": "server.js",
+  "scripts": {
+    "run": "node server.js",
+    "test": ""
+  },
+  "keywords": [
+    "Express",
+    "Mysql",
+    "EJB",
+    "SessionParser",
+    "CookieParser"
+  ],
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.15.3",
+    "express-session": "^1.15.3",
+    "jade": "^1.11.0",
+    "mysql": "^2.13.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bmax-Tech/ExpressJs-MySQL.git"
+  },
+  "author": "Bmax-Tech",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bmax-Tech/ExpressJs-MySQL/issues"
+  },
+  "homepage": "https://github.com/Bmax-Tech/ExpressJs-MySQL#readme"
+}
