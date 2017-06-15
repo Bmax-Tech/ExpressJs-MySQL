@@ -61,10 +61,10 @@ html
         script.
             function updateItem(item){
                 console.log(item);
-                $('#u_itemid').val(item.id);
-                $('#u_itemno').val(item.itemno);
-                $('#u_itemname').val(item.itemname);
-                $('#u_itemqty').val(item.qty);
+                document.getElementById('u_itemid').value = item.id;
+                document.getElementById('u_itemno').value = item.itemno;
+                document.getElementById('u_itemname').value = item.itemname;
+                document.getElementById('u_itemqty').value = item.qty;
             };
             function deleteItem(id){
                 var con = confirm("Do you want to delete the record ?");
